@@ -29,6 +29,6 @@ export class Game {
         this._gameState.players = this._gameState.players.filter(
             (player) => id !== player.id
         );
-        this._logger.userLog(id, "left game");
+        this._logger.userLog(id, "left game cause he a bitch");
     }
 }
